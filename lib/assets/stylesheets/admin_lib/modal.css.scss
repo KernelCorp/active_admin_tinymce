@@ -1,0 +1,51 @@
+body, html{
+	min-height: 100%;
+}
+
+#modal{
+	.modal-header{
+		text-align: left;
+		.close{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	}
+	.modal-footer{
+		text-align: right;
+	}
+	.modal-body{
+		max-height: 300px;
+		overflow-y: auto;
+	}
+	font-family: Helvetica Neue;
+	padding: 15px;
+	position: fixed;
+	top: 10%;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+	z-index: 1050;
+	background-color: #ffffff;
+	a.collection-image{
+		img{
+			margin: 5px;
+			cursor: pointer;
+		}
+		&.active{
+			img{
+				border: 3px #5DA30C solid;
+			}
+		}
+	}
+}
+.shadow{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #333;
+	opacity: .5;
+}
