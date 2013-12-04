@@ -5,11 +5,11 @@ require "active_admin_tinymce/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "active_admin_tinymce"
+  s.name        = "activeadmin_tinymce"
   s.version     = ActiveAdminTinymce::VERSION
-  s.authors     = ["Your name"]
-  s.email       = ["Your email"]
-  s.homepage    = ""
+  s.authors     = ["Kerweb development team"]
+  s.email       = ["mk@kernel-corp.com"]
+  s.homepage    = "https://github.com/KernelCorp/active_admin_tinymce"
   s.summary     = "Summary of ActiveAdminTinymce."
   s.description = "Description of ActiveAdminTinymce."
 
@@ -18,5 +18,4 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.13"
 
-  s.add_development_dependency "sqlite3"
 end
