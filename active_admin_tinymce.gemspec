@@ -5,7 +5,7 @@ require "active_admin_tinymce/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "activeadmin_tinymce"
+  s.name        = "active_admin_tinymce"
   s.version     = ActiveAdminTinymce::VERSION
   s.authors     = ["Kerweb development team"]
   s.email       = ["mk@kernel-corp.com"]
