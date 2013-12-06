@@ -1,7 +1,7 @@
 Active Admin Tinymce
 ====================
 This is a wysiwyg html editor for the [Active Admin](http://activeadmin.info/) interface using [TinyMCE](http://www.tinymce.com/).
-Editor support insert images. To upload files used [Active Admin Images](http://github.com/KernelCorp/activeadmin_images.git)
+Editor supports inserting images. To upload files used [Active Admin Images](http://github.com/KernelCorp/activeadmin_images.git)
 
 ## Installation
 
