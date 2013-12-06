@@ -1,10 +1,12 @@
-require "active_admin_tinymce/engine"
+require 'active_admin/tinymce/engine'
 
-module ActiveAdminTinymce
-  mattr_accessor :model_class
+module ActiveAdmin
+  module Tinymce
+    mattr_accessor :model_class
 
-  def self.setup
-    yield self
+    def self.setup
+      yield self
+    end
+
   end
-
 end
