@@ -10,8 +10,9 @@ Gem::Specification.new do |s|
   s.authors     = ["Kerweb development team"]
   s.email       = ["mk@kernel-corp.com"]
   s.homepage    = "https://github.com/KernelCorp/tinymce"
-  s.summary     = "Summary of ActiveAdminTinymce."
-  s.description = "Description of ActiveAdminTinymce."
+  s.summary     = "TinyMCE for Active Admin"
+  s.description = "This is a wysiwyg html editor for the Active Admin interface using TinyMCE. Editor supports
+inserting images. To upload files used Active Admin Images."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

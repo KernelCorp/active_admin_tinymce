@@ -5,8 +5,8 @@
     h3 Выберете изображение
   div class="modal-body form-horizontal"
     - @images.each do |image|
-      a.collection-image data-original="#{image.path.url(:original)}"
-        img src="#{image.path.url(:thumb)}"
+      a.collection-image data-original="#{image.send(ActiveAdmin::Tinymce.attachment_attr_name).url(:original)}"
+        img src="#{image.send(ActiveAdmin::Tinymce.attachment_attr_name).url(:thumb)}"
   div class="modal-footer"
     button type="button" class="btn btn-primary action-ok" Ok
     button type="button" data-dismiss="modal" class="btn close" Cancel
