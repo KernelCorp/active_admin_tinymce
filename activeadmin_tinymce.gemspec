@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ActiveAdmin::Tinymce::VERSION
   s.authors     = ["Kerweb development team"]
   s.email       = ["mk@kernel-corp.com"]
-  s.homepage    = "https://github.com/KernelCorp/tinymce"
+  s.homepage    = "https://github.com/KernelCorp/active_admin_tinymce"
   s.summary     = "TinyMCE for Active Admin"
   s.description = "This is a wysiwyg html editor for the Active Admin interface using TinyMCE. Editor supports
 inserting images. To upload files used Active Admin Images."
