@@ -4,7 +4,7 @@ module ActiveAdmin
       source_root File.expand_path('../templates', __FILE__)
 
       def create_initializer
-        template 'tinymce.rb', 'config/initializers/tinymce.rb'
+        template 'active_admin_tinymce.rb', 'config/initializers/active_admin_tinymce.rb'
       end
 
       def create_routes
