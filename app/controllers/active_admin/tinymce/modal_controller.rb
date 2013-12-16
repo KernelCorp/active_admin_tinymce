@@ -6,7 +6,7 @@ module ActiveAdmin
       def index
         model = ActiveAdmin::Tinymce.model_class
         @images = model.all
-        render partial: 'active_admin_tinymce/modal/modal'
+        render partial: 'active_admin/tinymce/modal/modal'
       end
     end
   end
