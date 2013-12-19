@@ -12,8 +12,8 @@ module ActiveAdmin
 
       def create_routes
         #uncoment it to pass tests
-        create_file 'config/routes.rb' #if !File.exist?('config/routes.rb')
-        inject_into_file 'config/routes.rb', 'ActiveAdmin.routes(self)', before: ''
+        #create_file 'config/routes.rb' #if !File.exist?('config/routes.rb')
+        #inject_into_file 'config/routes.rb', 'ActiveAdmin.routes(self)', before: ''
         if !name.blank?
           insert_into_file 'config/routes.rb', "\n  mount ActiveAdmin::Tinymce::Engine => '/', as: 'admin_editor'",
                          after: 'ActiveAdmin.routes(self)'
