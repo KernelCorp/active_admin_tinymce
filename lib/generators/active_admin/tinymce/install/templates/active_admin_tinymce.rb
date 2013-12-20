@@ -4,7 +4,8 @@ ActiveAdmin::Tinymce.setup do |config|
   #
   # Your model for images. Editor use this class for insert images into text
   #
-  config.model_class = <%= name.nil? ? Image : name%>
+  #config.model_class = Image
+  <%= !name.blank? ? 'config.model_class = '+name : ''%>
 
   # == Attachment
   #
