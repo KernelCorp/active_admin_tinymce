@@ -14,5 +14,12 @@ ActiveAdmin::Tinymce.setup do |config|
   # Defaults:
   # config.attachment_attr_name = 'attachment'
 
+  # == Active Admin namespace
+  #
+  # Name of the admin's namespace
+  #
+  # Defaults:
+  # config.admin_namespace = 'admin'
+
 
 end

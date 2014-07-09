@@ -7,9 +7,11 @@ module ActiveAdmin
     mattr_accessor :attachment_attr_name
     @@attachment_attr_name = 'attachment'
 
+    mattr_accessor :admin_namespace
+    @@admin_namespace = 'admin'
+
     def self.setup
       yield self
     end
-
   end
 end
