@@ -1,3 +1,5 @@
+require 'tinymce-rails'
+
 module ActiveAdmin
   module Tinymce
     class Engine < ::Rails::Engine
